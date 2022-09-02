@@ -1,5 +1,7 @@
 pipeline {
   agent {
+    
+   docker login -u dockerkumars12 -p ARUNKUMAR123' 
     docker { image 'liquibase/liquibase' }
   }
   stages {
